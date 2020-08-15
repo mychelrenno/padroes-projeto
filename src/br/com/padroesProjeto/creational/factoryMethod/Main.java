@@ -1,10 +1,10 @@
-package br.com.padroesProjeto.creation.factoryMethod;
+package br.com.padroesProjeto.creational.factoryMethod;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 
-public class MainFactoryMethod {
+public class Main {
 
 	public static void main(String[] args) {
 		//Empresas de ônibus

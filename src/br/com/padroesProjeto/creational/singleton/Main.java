@@ -1,6 +1,6 @@
-package br.com.padroesProjeto.creation.singleton;
+package br.com.padroesProjeto.creational.singleton;
 
-public class MainSingleton {
+public class Main {
 
 	public static void main(String[] args) {
 		Janela j = Janela.getInstance();

@@ -1,4 +1,4 @@
-package br.com.padroesProjeto.creation.factoryMethod;
+package br.com.padroesProjeto.creational.factoryMethod;
 
 import java.util.Calendar;
 

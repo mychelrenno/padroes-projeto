@@ -1,11 +1,10 @@
-package br.com.padroesProjeto.creation.factoryMethod;
+package br.com.padroesProjeto.creational.abstractFactory;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-//Produto
-public abstract class Passagem {
-	
+public abstract class PassagemOnibusInterestadual {
+
 	private String origem;
 	private String destino;
 	private Calendar dataHoraPartida;
@@ -13,7 +12,7 @@ public abstract class Passagem {
 	//Formatador da data
 	protected SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy HH:mm");
 	
-	public Passagem(String origem, String destino, Calendar dataHoraPartida) {
+	public PassagemOnibusInterestadual(String origem, String destino, Calendar dataHoraPartida) {
 		this.origem = origem;
 		this.destino = destino;
 		this.dataHoraPartida = dataHoraPartida;
@@ -44,5 +43,5 @@ public abstract class Passagem {
 	}
 	
 	public abstract void exibeDetalhes();
-	
+
 }

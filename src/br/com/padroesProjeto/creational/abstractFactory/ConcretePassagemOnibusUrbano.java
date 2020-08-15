@@ -1,11 +1,10 @@
-package br.com.padroesProjeto.creation.factoryMethod;
+package br.com.padroesProjeto.creational.abstractFactory;
 
 import java.util.Calendar;
 
-//Produto concreto
-public class PassagemOnibusUrbano extends Passagem {
+public class ConcretePassagemOnibusUrbano extends PassagemOnibusUrbano {
 
-	public PassagemOnibusUrbano(String origem, String destino, Calendar dataHoraPartida) {
+	public ConcretePassagemOnibusUrbano(String origem, String destino, Calendar dataHoraPartida) {
 		
 		super(origem, destino, dataHoraPartida);
 	}

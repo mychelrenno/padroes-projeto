@@ -1,4 +1,4 @@
-package br.com.padroesProjeto.creation.singleton;
+package br.com.padroesProjeto.creational.singleton;
 
 import java.awt.Dimension;
 
